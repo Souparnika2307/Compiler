@@ -1,0 +1,18 @@
+MAIN
+$
+    DECLARE ..--. a , b , c ;
+    SET a AS 10 ;
+    SET b AS 7 ;
+    SET c AS 0 ;
+    DECLARE ..--. i ;
+    SET i AS 0 ;
+    
+    ...--( SET i AS 0; i -..- 10; SET i AS i---1 )   // for(i=0;i<10;i=i+1)
+   $
+      SET c AS a --- b --- c ;
+      SET a AS a --. 1 ;
+      SET b AS b --. i; 
+      
+   $
+
+$

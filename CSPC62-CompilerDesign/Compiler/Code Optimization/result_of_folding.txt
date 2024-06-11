@@ -1,0 +1,48 @@
+a0=5
+a1=2
+a2=9
+a3=1
+a4=3
+n=5
+L1:
+j=0
+L2:
+t7=j>5
+if( not t7)	goto L3
+t7=j+1
+j=t7
+L4:
+i=0
+L5:
+t6=i>5
+if( not t6)	goto L6
+t6=i+1
+i=t6
+t1=a0>a1
+if( not t1)	goto L7
+temp=a0
+a0=a1
+a1=a0
+L7:
+t2=a1>a2
+if( not t2)	goto L8
+temp=a1
+a1=a2
+a2=a1
+L8:
+t3=a2>a3
+if( not t3)	goto L9
+temp=a2
+a2=a3
+a3=a2
+L9:
+t4=a3>a4
+if( not t4)	goto L10
+temp=a3
+a3=a4
+a4=a3
+L10:
+goto L5
+L6:
+goto L2
+L3:

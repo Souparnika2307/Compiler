@@ -1,0 +1,23 @@
+	a=10
+	b=5
+	c=0
+	i=0
+L1:
+	t3=i<5
+	if( not t3)	goto L2
+	t1=a+b
+	t2=t1+c
+	c=t2
+	t0=a-1
+	a=t0
+	t1=b+1
+	b=t1
+	goto L1
+L2: 
+	t2=c<10
+	if( not t2)	goto L3
+	c=0
+	goto L4
+L3: 
+	c=1
+L4: 

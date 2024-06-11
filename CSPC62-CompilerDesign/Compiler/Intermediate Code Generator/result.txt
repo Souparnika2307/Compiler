@@ -1,0 +1,20 @@
+	a=10
+	b=7
+	c=0
+	i=0
+L1:
+	i=0
+L2:
+	t3=i>10
+	if( not t3)	goto L3
+	t3=i+1
+	i=t3
+	t1=a+b
+	t2=t1+c
+	c=t2
+	t0=a-1
+	a=t0
+	t3=b-i
+	b=t3
+	goto L2
+L3: 

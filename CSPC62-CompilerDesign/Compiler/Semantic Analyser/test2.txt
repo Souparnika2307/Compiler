@@ -1,0 +1,16 @@
+MAIN
+$
+    DECLARE ..--. a,b,i,n,c;  //Real
+    SET a AS 3;
+    SET b AS 4;
+    SET i AS "hello";
+
+    DECLARE ..--. x , y;
+    ..-..(i-.-.n)
+    $
+        SET a AS b---1;
+        SET a AS a-.-a;
+        SET i AS i --- 1;
+    $
+    SET c AS a;
+$

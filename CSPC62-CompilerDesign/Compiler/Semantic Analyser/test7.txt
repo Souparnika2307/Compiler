@@ -1,0 +1,9 @@
+MAIN
+$
+   DECLARE ..--. m2,x,y;
+   SET m2 AS x -.- x -.- y -.- y; 
+  ..-.. (m2 -..- 5)
+  $
+    SET m2 AS m2 --. x;
+  $SET a AS 4;   //a is not defined
+$

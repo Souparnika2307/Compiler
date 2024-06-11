@@ -1,0 +1,28 @@
+t0=10+10
+a=t0
+t0=a+10
+b=t0
+t1=20*3
+c=t1
+t2=25-10
+d=t2
+t3=c+d
+e=t3
+i=0
+L1:
+t5=i<5
+if( not t5)	goto L2
+t1=a+b
+c=t1
+t1=t1
+d=t1
+goto L1
+L2:
+t3=c*d
+i=t3
+t3=t3
+j=t3
+t3=t3
+k=t3
+t4=c+e
+result=t4

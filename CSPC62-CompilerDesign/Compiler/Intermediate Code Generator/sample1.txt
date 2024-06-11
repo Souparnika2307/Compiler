@@ -1,0 +1,12 @@
+MAIN
+$
+    DECLARE ..--. a , b , c ;
+    SET a AS 10 ;
+    SET b AS 7 ;
+    SET c AS 0 ;
+    DECLARE ..--. i ,j;
+    SET i AS a --- b --- c;
+    SET j AS i --. 9;
+
+    
+ $

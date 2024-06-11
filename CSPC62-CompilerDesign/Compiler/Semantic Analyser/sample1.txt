@@ -1,0 +1,24 @@
+MAIN
+$
+    DECLARE ..--. a , b , c ;
+    SET a AS 10 ;
+    SET b AS 5 ;
+    SET c AS 0 ;
+    DECLARE ..--. i ;
+    SET i AS 0 ;
+
+    ..-.. ( i -.-. 5 )
+    $ 
+        SET c AS a --- b --- c ;
+        SET a AS a --. 1 ;
+        SET b AS  b --- 1 ;
+    $ 
+    ....- ( c -.-. 10 )
+    $ 
+        SET c AS 0 ; 
+    $ 
+    ...-.
+    $
+        SET c AS 1 ;
+    $
+ $

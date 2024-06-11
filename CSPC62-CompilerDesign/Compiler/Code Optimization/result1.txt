@@ -1,0 +1,22 @@
+	t0=10+10
+	a=t0
+	t0=a+10
+	b=t0
+	c=0
+	d=0
+	i=0
+L1:
+	t4=i<5
+	if( not t4)	goto L2
+	t1=a+b
+	c=t1
+	t1=a+b
+	d=t1
+	goto L1
+L2: 
+	t3=c*d
+	i=t3
+	t3=c*d
+	j=t3
+	t3=c*d
+	k=t3

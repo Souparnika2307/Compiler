@@ -1,0 +1,28 @@
+void main()
+{
+
+   int a,b,c,d;
+  while(a<c && b<c || c>d) {
+       a=b/c*d+(-c); 
+          
+       }
+
+   DECLARE real i, total;
+   
+   for( SET i AS 0; i < 10; SET i AS i+1 )
+   $
+      SET total AS total - i; 
+   $
+
+   DECLARE real result;
+   if(a < total)
+   $
+      SET result AS 1;
+   $
+   else
+   $
+      SET result AS 0;
+   $
+
+   
+$

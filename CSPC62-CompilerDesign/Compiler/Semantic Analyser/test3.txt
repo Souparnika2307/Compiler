@@ -1,0 +1,11 @@
+MAIN
+$
+   DECLARE ..--. m2,x,y;
+   DECLARE ..--. SET;
+   SET SET AS 5;
+   SET m2 AS x -.- x -.- y -.- y; 
+  ..-.. (m2 -..- 5)
+  $
+    m2 AS m2 --. x;
+  $
+$

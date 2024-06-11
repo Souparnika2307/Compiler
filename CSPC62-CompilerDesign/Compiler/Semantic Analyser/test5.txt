@@ -1,0 +1,16 @@
+MAIN
+$
+    DECLARE ..--. a,b,i,n,c;
+    SET a AS 3;
+    SET b AS "kaviya";  //b declared as real but assigning string
+    SET i AS 0;
+    DECLARE ..--. a;
+    DECLARE ..--. x , y;
+    ..-..(i-.-.n)
+    $
+        SET a AS b---1;
+        SET a AS a-.-a;
+        SET i AS i --- 1;
+    $
+    SET c AS a;
+$

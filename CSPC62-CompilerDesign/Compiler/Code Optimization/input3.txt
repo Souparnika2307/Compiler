@@ -1,0 +1,46 @@
+MAIN
+$
+	DECLARE ..--. a0, a1, a2, a3, a4,n,i,j;
+	
+	SET a0 AS 5;
+	SET a1 AS 2;
+	SET a2 AS 9;
+	SET a3 AS 1;
+	SET a4 AS 3;
+	SET n AS 5;
+	...--( SET j AS 0; j -..- 5; SET j AS j---1 ) 
+	$
+	     ...--( SET i AS 0; i -..- 5; SET i AS i---1 )   
+   	     $
+      		....- ( a0 -..- a1 )     
+           	$
+           		DECLARE ..--. temp;
+             		SET temp AS a0;
+             		SET a0 AS  a1 ;
+             		SET a1 AS a0;
+           	$ 
+      	   	....- ( a1 -..- a2 )  
+           	$
+           	//  DECLARE ..--. temp;
+             		SET temp AS a1;
+             		SET a1 AS  a2 ;
+             		SET a2 AS a1;
+           	$ 
+      	   	....- ( a2 -..- a3 ) 
+           	$
+            	// DECLARE ..--. temp;
+             		SET temp AS a2;
+             		SET a2 AS  a3 ;
+             		SET a3 AS a2;
+           	$ 
+      	   	....- ( a3 -..- a4 )  
+           	$
+           	//  DECLARE ..--. temp;
+             		SET temp AS a3;
+             		SET a3 AS  a4 ;
+             		SET a4 AS a3;
+           	$ 
+
+      	   $
+     $
+$	

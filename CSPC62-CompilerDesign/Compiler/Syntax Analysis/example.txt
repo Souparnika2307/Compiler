@@ -1,0 +1,134 @@
+//Sample program
+
+DECLARE ..--. a ;
+DECLARE ..--. b;
+DECLARE ..--. c;
+DECLARE ..--- charater 't';
+DECLARE .-..- d "teja";
+
+func ..--. add ( ..--. a, ..--. b )
+$
+    SET a a --- b;
+    --.-- a;
+$
+
+main 
+$ 
+    SET a 23;
+    SET b 20;
+    SET c 34;
+
+    ....-(a .... b)
+    $
+        .....("yes");
+    $	
+    ...-.
+    $
+        .....("no");
+    $
+
+    DECLARE ..--. i;
+    SET i 1;
+
+     ...--(i -.-. 10) 
+    $
+        SET i i --- 1;
+    $
+
+    DECLARE ..--. num;
+    SET num -----();
+
+    ..-.-(num)
+    $
+	    .---.(num .... 2)
+        $
+            SET a num --- a;
+            .-.-.;
+        $
+        .---.(num .... 3)
+        $
+            SET a num --. a;
+            .-.-.;
+        $
+        -...-
+        $
+            .....(a);
+        $
+    $
+
+    DECLARE ..--. result;
+    SET result add(a,b);
+    .....(result);
+    
+    
+$
+
+
+/*
+multiline comment
+Plain english equivalent
+
+DECLARE real a 25;
+DECLARE real b;
+DECLARE real c;
+DECLARE char charater 't';
+DECLARE string d "teja";
+
+func real add ( real a, real b )
+$
+    SET a a + b;
+    return a;
+$
+
+main 
+$ 
+    SET a 23; 
+    SET b 20;
+    SET c 34;
+
+    if(a == b)
+$
+    output("yes");
+$
+else
+$
+    output("no");
+$
+DECLARE real i;
+SET i 1;
+
+loop(i<10)
+$
+    SET i i+1;
+$
+
+DECLARE real num;
+SET num input();
+
+switch(num)
+$
+	case(num==2)
+    $
+		SET a num+a;
+        break;
+	$
+
+	case(i==3)
+    $
+        SET a num-a;
+        break;
+    $
+	
+	default:
+    $
+        output(num);
+    $
+
+    DECLARE real result;
+    SET result add(a,b);
+    output(result);
+	
+$
+
+*/
+
